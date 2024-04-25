@@ -111,5 +111,14 @@ Cuando establezco vínculos significativos con las personas, ya sean amigos, fam
             </div>
         </div>
     </div>
+    <footer>
+
+    <nav>
+
+    <a href="{{ route('Inicio') }}">Salir</a>
+
+    </nav>
+
+  </footer>
 </body>
 </html>

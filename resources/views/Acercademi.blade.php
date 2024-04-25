@@ -42,6 +42,45 @@
     background-color: #f2f2f2;
     text-align:center;
   }
+  footer {
+
+   background-color: #6b5b3e; /* Mostaza oscuro */
+
+   color: #fff;
+
+   text-align: center;
+
+   padding: 10px;
+
+   width: 100%; /* Ocupa todo el ancho */
+
+   position: absolute; /* Permite que el pie de página permanezca abajo */
+
+   bottom: 0; /* Fijado abajo */
+
+  position: fixed; /* Mantiene fijo el encabezado */
+
+}
+
+
+
+footer nav {
+
+margin-top: 5px;
+
+}
+
+
+
+footer a {
+
+color: #fff;
+
+text-decoration: none;
+
+margin-right: 10px;
+
+}
 </style>
 </head>
 <body>
@@ -59,6 +98,15 @@
     <img src="https://i.pinimg.com/564x/41/e1/ca/41e1ca6136968c828e7a9972d6c57c4c.jpg" alt="Imagen de [yefelson]">
   </div>
 </div>
+<footer>
+
+    <nav>
+
+    <a href="{{ route('Inicio') }}">Salir</a>
+
+    </nav>
+
+  </footer>
 
 </body>
 </html>
